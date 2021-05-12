@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa Talk</title>
+    <title>Friends - Kokoa Clone</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -22,24 +22,30 @@
         <i class="fa fa-bolt" aria-hidden="true"></i>
       </div>
     </div>
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to KakaoClone</h1>
-      <p class="welcome-header__text">
-        If you have a Kakao Account,<br />
-        log in with your email or phone number.
-      </p>
-    </header>
-    <form action="friends.html" method="get" id="login-form">
-      <input
-        type="text"
-        placeholder="Email or phone number"
-        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$ [0-9]{3}+[0-9]{4}+[0-9]{4}"
-      />
-      <input name="username" type="text" placeholder="Password" />
-      <input name="password" type="submit" value="Log In" />
-      <input type="btn" value="Sign Up" />
-      <a href="#">Fine Kokoa Account or Password</a>
-    </form>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa fa-user fa-lg" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><i class="fa fa-comment-o fa-lg" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><i class="fa fa-search fa-lg" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><i class="fa fa-ellipsis-h fa-lg" aria-hidden="true"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
