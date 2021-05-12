@@ -30,3 +30,13 @@
   left: 15px;
   bottom: 15px;
 }
+.nav__dot {
+  display: block;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  top: -10px;
+}
