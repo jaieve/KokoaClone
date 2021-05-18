@@ -1,10 +1,10 @@
 .status-bar {
-  position: fixed;
-  top: 0;
-  width: 100vw;
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
   box-sizing: border-box;
 }
 .status-bar__column {
@@ -17,11 +17,11 @@
   display: flex;
   justify-content: center;
 }
-.status-bar__column:nth-child(3) {
+.status-bar__column:last-child {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 .status-bar__column .fa-battery-full {
-  margin: 0 5px;
+  margin: 0px 5px;
 }

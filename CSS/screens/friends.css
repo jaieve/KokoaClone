@@ -3,8 +3,12 @@
   display: block;
   background-color: #fafafa;
   padding: 10px 0px;
-  font-size: 16px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 #friends-display-unique i {
   color: rgba(0, 0, 0, 0.3);
+}
+.friends__screen {
+  padding-left: var(--horizontal-space);
 }
