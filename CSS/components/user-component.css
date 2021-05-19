@@ -45,3 +45,24 @@
   display: flex;
   margin-bottom: 10px;
 }
+.user-component__personal-info {
+  display: flex;
+  margin-top: 8px;
+  align-items: center;
+}
+.user-component__personal-info h6 {
+  display: flex;
+  margin-top: 0px;
+  margin-right: 5px;
+}
+.user-component__personal-info span {
+  width: 14px;
+  height: 14px;
+  text-align: center;
+  vertical-align: center;
+  border: 2px solid rgb(241, 148, 148);
+  border-radius: 50px;
+  color: rgb(241, 148, 148);
+  font-size: 15px;
+  font-weight: bold;
+}
