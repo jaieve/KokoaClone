@@ -11,7 +11,7 @@
   width: 33%;
 }
 .status-bar__column:first-child span {
-  margin: 5px;
+  margin: 0px;
   font-size: 14px;
 }
 .status-bar__column:nth-child(2) {
@@ -25,6 +25,7 @@
   align-items: center;
   font-size: 15px;
 }
+.status-bar__column:first-child i,
 .status-bar__column:last-child span {
   font-size: 13px;
 }
