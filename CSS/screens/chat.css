@@ -29,7 +29,7 @@
 }
 
 .main-chat {
-  margin-top: 90px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,6 +42,10 @@
   font-size: 14px;
   border-radius: 25px;
   margin-bottom: 20px;
+  transition: transform 0.2s ease-in;
+}
+.chat__timestamp:hover {
+  transform: scale(1.1);
 }
 @keyframes fadeInLeft {
   from {
@@ -140,7 +144,7 @@
   width: 95%;
   border: var(--main-border);
   border-radius: 30px;
-  transition: all 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 .reply i {
   opacity: 0.5;
