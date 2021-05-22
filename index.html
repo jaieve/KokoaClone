@@ -18,7 +18,7 @@
       </div>
       <div class="status-bar__column">
         <span>77%</span>
-        <i class="fa fa-battery-full fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-battery-full" aria-hidden="true"></i>
         <i class="fa fa-bolt" aria-hidden="true"></i>
       </div>
     </div>
@@ -32,11 +32,12 @@
     <form action="friends.html" method="get" id="login-form">
       <input
         type="text"
+        name="username"
         placeholder="Email or phone number"
         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$ [0-9]{3}+[0-9]{4}+[0-9]{4}"
       />
-      <input name="username" type="text" placeholder="Password" />
-      <input name="password" type="submit" value="Log In" />
+      <input name="password" type="text" placeholder="Password" />
+      <input type="submit" value="Log In" />
       <input type="btn" value="Sign Up" />
       <a href="#">Fine Kokoa Account or Password</a>
     </form>
