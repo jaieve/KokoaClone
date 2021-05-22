@@ -27,5 +27,5 @@
   }
 }
 .screen-header__icons .fa-cog:hover {
-  animation: rotateCog 1s linear infinite;
+  animation: rotateCog 3s linear infinite;
 }
