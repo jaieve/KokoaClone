@@ -126,6 +126,7 @@
   align-items: center;
   padding: 5px 20px;
   box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
 }
 .reply .reply__column:first-child {
   width: 10%;
@@ -139,6 +140,7 @@
   width: 95%;
   border: var(--main-border);
   border-radius: 30px;
+  transition: all 0.3s ease-in-out;
 }
 .reply i {
   opacity: 0.5;
@@ -146,11 +148,11 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: -7px;
+  right: 1.5%;
   top: 5px;
 }
 .reply__column:last-child > i {
-  right: 35px;
+  right: 9%;
   top: 11px;
 }
 .reply__column button {
@@ -166,4 +168,24 @@
 .reply__column button:focus,
 .reply__column button:active {
   outline: none;
+}
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-smile-wink,
+.reply:focus-within button {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/*reply 내부에 어떤 요소가 focus되어 있다면*/
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-smile-wink,
+.reply:focus-within button {
+  opacity: 0;
+}
+/*transform 이 유연하게 바뀌는 것을 보고싶다면 :조건 이 안붙은 설정에서 transition 설정*/
+.reply:focus-within input {
+  width: 90vw;
+  transform: translateX(-12%) translateY(-60px);
+}
+.reply:focus-within {
+  transform: translateY(60px);
 }
