@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 500vh;
+  height: 200vh;
 }
 #chat-screen .status-bar,
 #chat-screen .alt-header {
@@ -16,7 +16,6 @@
 #chat-screen .alt-header {
   z-index: 1;
 }
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -27,13 +26,15 @@
     opacity: 1;
   }
 }
-
 .main-chat {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   animation: fadeIn 0.8s linear;
+}
+.main-screen .main-chat {
+  padding: 0px 8px;
 }
 .chat__timestamp {
   color: white;
@@ -133,10 +134,10 @@
   transition: all 0.3s ease-in-out;
 }
 .reply .reply__column:first-child {
-  width: 10%;
+  width: 4%;
 }
 .reply .reply__column:last-child {
-  width: 90%;
+  width: 92%;
   position: relative;
 }
 .reply input {
@@ -152,11 +153,11 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: 1.5%;
+  right: 0px;
   top: 5px;
 }
 .reply__column:last-child > i {
-  right: 9%;
+  right: 12%;
   top: 11px;
 }
 .reply__column button {
@@ -187,7 +188,7 @@
 }
 /*transform 이 유연하게 바뀌는 것을 보고싶다면 :조건 이 안붙은 설정에서 transition 설정*/
 .reply:focus-within input {
-  width: 90vw;
+  width: 87vw;
   transform: translateX(-12%) translateY(-60px);
 }
 .reply:focus-within {
