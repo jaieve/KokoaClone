@@ -92,3 +92,23 @@
 .open-post__like-count span {
   margin-left: 3px;
 }
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.open-post__like-count:hover i {
+  will-change: transform; /*그래픽카드를 이용해 애니메이션ㅇ르 가속화하고 브라우저를 도와준다.
+   흔들리는 엘리멘트를 안흔들리게 해줬음*/
+  animation: heartBeat 1s linear infinite;
+}
