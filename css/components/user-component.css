@@ -15,7 +15,7 @@
 }
 .user-component__title {
   font-weight: 600;
-  font-size: 21px;
+  font-size: 19px;
 }
 .user-component__subtitle {
   margin-top: 8px;
@@ -33,6 +33,7 @@
 }
 .user-component__title--not-bold {
   font-weight: 400;
+  font-size: 18px;
 }
 
 .user-component__column:last-child {
@@ -65,4 +66,17 @@
   color: rgb(241, 148, 148);
   font-size: 15px;
   font-weight: bold;
+}
+.user-status-message {
+  display: flex;
+  justify-content: flex-end;
+}
+.user-status-message > div {
+  display: flex;
+  background-color: rgb(207, 205, 205);
+  padding: 8px 15px 8px 20px;
+  color: white;
+  font-weight: 400;
+  justify-content: right;
+  border-radius: 13px;
 }

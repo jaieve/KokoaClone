@@ -38,4 +38,5 @@
 }
 .more-suggestions__icon-text {
   color: var(--font-grey);
+  text-align: center;
 }
