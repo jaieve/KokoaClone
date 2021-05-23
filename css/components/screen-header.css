@@ -12,7 +12,8 @@
   font-weight: bold;
 }
 .screen-header__icons span {
-  margin-left: 25px;
+  margin-left: 15px;
+  font-size: 15px;
 }
 .screen-header__icons {
   position: relative;
