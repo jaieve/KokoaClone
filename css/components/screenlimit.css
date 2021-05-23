@@ -25,11 +25,11 @@
   top: 0;
   justify-content: center;
   align-items: center;
-  font-size: 28px;
+  font-size: px;
   visibility: hidden;
   text-align: center;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 374px) {
   #no-narrow {
     visibility: visible;
   }
