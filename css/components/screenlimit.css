@@ -29,7 +29,7 @@
   visibility: hidden;
   text-align: center;
 }
-@media screen and (max-width: 374px) {
+@media screen and (min-width: 319px) {
   #no-narrow {
     visibility: visible;
   }
