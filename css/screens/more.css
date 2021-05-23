@@ -40,3 +40,7 @@
   color: var(--font-grey);
   text-align: center;
 }
+.more-suggestions__icon span {
+  font-size: 15px;
+  line-height: 20px;
+}

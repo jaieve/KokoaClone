@@ -27,3 +27,27 @@ body {
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
+@keyframes hideSpalsh {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden; /*마우스에 걸리지 않게 사라지게 해주는 설정*/
+    /*display:none 으로는 안사라짐*/
+  }
+}
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0; /*위치를 지정하는 순간 다른 레이어로 올라가서 진짜 화면크기로 커져서 모든 것을 덮는다*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 122px;
+  animation: hideSpalsh 0.1s ease-in-out forwards;
+  /*to {} 상태를 계속 지속하게 해주는 forwards */
+  animation-delay: 1s;
+}

@@ -14,6 +14,6 @@
 .settings__setting-column:last-child {
   opacity: 0.5;
 }
-.settings__setting:nth-child(3) .settings__setting-column:last-child {
+.settings__setting:nth-child(4) .settings__setting-column:last-child {
   font-size: 17px;
 }
