@@ -1,3 +1,6 @@
+.find-screen {
+  height: 130vh;
+}
 .recommended-friends {
   border-top: var(--main-border);
   border-bottom: var(--main-border);

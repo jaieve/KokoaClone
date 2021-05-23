@@ -22,7 +22,7 @@
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
-  height: 100vh;
+  height: fit-content;
 }
 .main-screen {
   padding: 0px var(--horizontal-space);
@@ -50,4 +50,8 @@ body {
   animation: hideSpalsh 0.1s ease-in-out forwards;
   /*to {} 상태를 계속 지속하게 해주는 forwards */
   animation-delay: 1s;
+}
+body::-webkit-scrollbar,
+.main-screen::-webkit-scrollbar {
+  display: none;
 }
