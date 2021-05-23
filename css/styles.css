@@ -22,10 +22,11 @@
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
-  height: fit-content;
+  height: 100vh;
 }
 .main-screen {
   padding: 0px var(--horizontal-space);
+  padding-bottom: 70px;
 }
 @keyframes hideSpalsh {
   from {
