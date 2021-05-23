@@ -10,7 +10,7 @@
   align-items: center;
   font-size: 32px;
 }
-@media screen and (max-width: 645px) {
+@media screen and (max-width: 425px) {
   #no-mobile {
     display: none;
   }
@@ -25,12 +25,12 @@
   top: 0;
   justify-content: center;
   align-items: center;
-  font-size: px;
+  font-size: 28px;
   visibility: visible;
   text-align: center;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 319px) {
   #no-narrow {
-    visibility: hidden;
+    display: none;
   }
 }

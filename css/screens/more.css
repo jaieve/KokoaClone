@@ -22,6 +22,9 @@
   align-items: center;
   box-sizing: border-box;
 }
+.more-suggestions__icon:hover span {
+  color: rgba(0, 0, 0, 0.8);
+}
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
@@ -43,4 +46,5 @@
 .more-suggestions__icon span {
   font-size: 15px;
   line-height: 20px;
+  transition: color 0.32s ease-in-out;
 }
